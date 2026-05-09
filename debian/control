@@ -9,7 +9,7 @@ Homepage: http://github.com/davidmoreno/onion
 Package: libonion-dev
 Section: libdevel
 Architecture: any
-Depends: libonion0 (= ${binary:Version}), libgnutls-dev
+Depends: libonion0 (= ${binary:Version}), libgnutls28-dev
 Description: HTTP server library - development package
  Onion plans to be a lightweight C library that facilitate to create simple 
  HTTP servers.
