@@ -1,3 +1,10 @@
+libonion (0.8.0+nmu1) ka9q; urgency=medium
+
+  * Non-maintainer upload.
+  * added debian packaging configuration
+
+ -- Phil Karn <karn@ka9q.net>  Fri, 08 May 2026 21:54:23 -0700
+
 libonion (0.8.0) stable; urgency=low
 
   * Stability improvements on the poller (Thanks to Solar designer for help tracking it, idea by Rich Felker, fixed by David Moreno).
