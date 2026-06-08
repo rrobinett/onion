@@ -26,9 +26,9 @@ add_custom_command(
 add_executable(04-templates 04-templates.cpp _04_templates_html.c)
 target_link_libraries(04-templates onion onioncpp)
 
-add_executable(05-exportlocal 05-exportlocal)
+add_executable(05-exportlocal 05-exportlocal.cpp)
 target_link_libraries(05-exportlocal onion onioncpp)
 
-add_executable(06-mime 06-mime)
+add_executable(06-mime 06-mime.cpp)
 target_link_libraries(06-mime onion onioncpp)
 
