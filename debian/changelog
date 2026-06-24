@@ -1,3 +1,9 @@
+libonion (2026.06.24-1-trixie1) trixie; urgency=medium
+
+  * switch to date-based versioning, pull upstream from Wayne (no CHU)
+
+ -- Phil Karn <karn@ka9q.net>  Tue, 23 Jun 2026 17:53:49 -0700
+
 libonion (0.8.0+nmu1) ka9q; urgency=medium
 
   * Non-maintainer upload.
