@@ -1,5 +1,6 @@
 *~
 .*
+\#*\#
 # some typical compilation directories
 build
 release
@@ -7,3 +8,4 @@ debug
 obj-*
 debian/files
 debian/*.substvars
+
