@@ -26,6 +26,7 @@
 
 #include <libxml/xmlmemory.h>
 #include <libxml/xmlwriter.h>
+#include <libxml/parser.h>
 
 #include <onion/log.h>
 #include <onion/response.h>

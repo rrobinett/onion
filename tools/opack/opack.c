@@ -33,7 +33,7 @@
 
 #include "../common/updateassets.h"
 
-void print_help();
+void print_help(char const *);
 char *funcname(const char *prefix, const char *filename);
 void parse_file(const char *prefix, const char *filename, FILE * outfd,
                 onion_assets_file * assets);
@@ -49,7 +49,7 @@ int main(int argc, char **argv) {
   // First pass cancel out the options, let only the files
   for (i = 1; i < argc; i++) {
     if (strcmp(argv[i], "--help") == 0)
-      print_help();
+      print_help(argv[0]);
     else if (strcmp(argv[i], "-o") == 0) {
       if (i >= argc - 1) {
         fprintf(stderr, "ERROR: Need an argument for -o");
