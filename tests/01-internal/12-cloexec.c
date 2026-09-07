@@ -36,7 +36,7 @@
 
 int checkfds();
 int handler(const char *me, onion_request * req, onion_response * res);
-void init_onion();
+void init_onion(const char *);
 
 void t01_get() {
   INIT_LOCAL();
@@ -68,7 +68,7 @@ int main(int argc, char **argv) {
   START();
 
   if (argc == 2 && strcmp(argv[1], "--checkfds") == 0)
-    return checkfds(argc, argv);
+    return checkfds();
 
   pid_t pid;
   if ((pid = fork()) == 0) {
