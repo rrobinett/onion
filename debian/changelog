@@ -1,3 +1,10 @@
+libonion (2026.09.07-1-trixie1) trixie; urgency=medium
+
+  * commit c7f7bff35db7d722f513397607235ffd05aef7e4
+  * cleanup bitrot that prevented builds on forky and resolute
+
+ -- Phil Karn <karn@ka9q.net>  Mon, 07 Sep 2026 16:13:11 -0700
+
 libonion (2026.06.24-1-trixie1) trixie; urgency=medium
 
   * switch to date-based versioning, pull upstream from Wayne (no CHU)
