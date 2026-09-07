@@ -1,7 +1,10 @@
 Source: libonion
 Priority: extra
 Maintainer: David Moreno <dmoreno@coralbits.com>
-Build-Depends: debhelper (>= 9), cmake, libgnutls28-dev, libpam0g-dev, libxml2-dev, libsqlite3-dev, libcurl-dev, gnutls-bin, libjs-jquery
+Build-Depends: debhelper (>= 9), cmake, libgnutls28-dev, libpam0g-dev,
+ libxml2-dev, libsqlite3-dev, libcurl-dev, gnutls-bin, libjs-jquery,
+ libgcrypt20-dev, libhiredis-dev, libxml2-dev, zlib1g-dev, libpng-dev,
+ libcairo-dev, libjpeg-dev, libcurl-dev, libsystemd-dev
 Standards-Version: 3.8.4
 Section: libs
 Homepage: http://github.com/davidmoreno/onion
